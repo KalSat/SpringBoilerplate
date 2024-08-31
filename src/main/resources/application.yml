@@ -12,8 +12,6 @@ logging:
     root: info
 
 environment:
-  name: @project.name@
-  version: @project.version@
   profile: "default"
 
 management:
