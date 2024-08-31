@@ -16,3 +16,6 @@ environment:
   version: @project.version@
   profile: "default"
 
+management:
+  endpoints.web.exposure.include: "*"
+  info.git.enabled: true
